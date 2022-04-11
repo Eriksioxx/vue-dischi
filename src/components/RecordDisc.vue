@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "Record",
+  name: "RecordDisc",
   props: {
     //   details richiama l'oggetto del vfor del componente padre
     details: Object,
