@@ -5,9 +5,9 @@
     <section>
       <!-- vfor che stampa la lista filtrata, con details (è un prop) 
         dice al componente figlio di prendersi i dati del singolo oggetto -->
-      <Record
-        v-for="(record, index) in filteredRecordList"
-        :key="index"
+      <RecordDisc
+        v-for="(record, i) in filteredRecordList"
+        :key="i"
         :details="record"
       />
     </section>
@@ -15,14 +15,14 @@
 </template>
 
 <script>
-import Record from "@/components/Record.vue";
+import RecordDisc from "@/components/RecordDisc.vue";
 import GenreSelection from "@/components/GenreSelection.vue";
 import axios from "axios";
 
 export default {
   name: "RecordCont",
   components: {
-    Record,
+    RecordDisc,
     GenreSelection,
   },
 

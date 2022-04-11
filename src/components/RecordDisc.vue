@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "Record",
+  name: "RecordDisc",
   props: {
     // details richiama l'oggetto del v-for del componente padre
     details: Object,

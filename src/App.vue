@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="logo-cont">
-      <img src=".assets/spotify.png" alt="" />
+      <img src="./assets/spotify.png" alt="" />
     </div>
     <RecordCont />
   </div>
