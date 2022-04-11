@@ -12,7 +12,7 @@
 export default {
   name: "Record",
   props: {
-    //   detils richiama l'oggetto del vfor del componente padre
+    //   details richiama l'oggetto del vfor del componente padre
     details: Object,
   },
 };

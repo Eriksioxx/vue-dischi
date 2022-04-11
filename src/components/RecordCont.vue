@@ -13,8 +13,6 @@
   </main>
 </template>
 
-
-
 <script>
 import Record from "@/components/Record.vue";
 import GenreSelection from "@/components/GenreSelection.vue";
