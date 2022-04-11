@@ -1,8 +1,7 @@
 <template>
   <div class="select">
     Seleziona un genere musicale:
-    <!-- $emit manda il valore della selezione al componente padre per 
-        generare solo gli elementi selezionati -->
+    <!-- $emit manda il valore della selezione al componente padre per generare solo gli elementi selezionati -->
     <select
       name="genre"
       id="genre"
@@ -30,13 +29,11 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .select {
   margin: 30px 0;
   text-align: center;
   color: white;
-
   #genre {
     margin: 0 10px;
   }

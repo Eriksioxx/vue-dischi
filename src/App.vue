@@ -37,9 +37,9 @@ export default {
     height: 70px;
     padding: 10px 20px;
     background-color: #2e3a46;
-  }
-  img {
-    height: 100%;
+    img {
+      height: 100%;
+    }
   }
 }
 </style>
